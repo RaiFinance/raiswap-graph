@@ -9,6 +9,7 @@
     "create-local": "graph create raifinance/ammgraph--node http://127.0.0.1:8020",
     "deploy-local": "graph deploy raifinance/ammgraph--debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy": "graph deploy raifinance/ammgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token $GRAPH_ACCESS_TOKEN",
+    "deploybsc": "graph deploy raifinance/bscammgraph --ipfs https://api.bscgraph.org/ --node https://api.bscgraph.org/deploy/ --access-token $GRAPH_ACCESS_TOKEN",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /graph --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
     "watch-local": "graph deploy raifinance/graph --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
